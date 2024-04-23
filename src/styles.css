@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  width: 400px;
+  text-align: left;
+  margin: auto;
+}
+
+#traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 80px;
+  margin: 20px auto;
+}
+
+#traffic-light button {
+  border: 0;
+  padding: 0;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#traffic-light button:hover {
+  border: 1px solid blue;
+}
+
+#stop.lit {
+  background-color: red;
+}
+
+#caution.lit {
+  background-color: yellow;
+}
+
+#go.lit {
+  background-color: green;
+}
